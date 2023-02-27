@@ -1,0 +1,204 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin-top:40px;
+    text-align:center;
+    font-weight:bold;
+    position:sticky;
+    top:0;
+    background-color:white;
+}
+
+nav {
+    margin:1vh 0;
+}
+
+nav a {
+    text-decoration:none;
+    color:black;
+    transition:0.5s;
+    margin:1.5vw;
+}
+
+nav a:hover {
+    color:#7ABA96;
+}
+
+.lineaHeader {
+    display: block;
+    border: 0; border-top: 1px solid #8A8070;
+}
+
+main {
+    display:flex;
+    margin: 2vh 12vw;
+}
+
+aside {
+    text-align:center;
+    margin:0 2vw;
+    min-width:15vw;
+}
+
+
+.btn {
+    border:none;
+    background: rgba(138, 128, 112, 0.5);
+    padding: 10px 20px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btnapuntame {
+    color:black;
+}
+
+.btnapuntame:hover {
+    color:black;
+}
+
+.btn::before {
+    content:"";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background:#8A8070;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.btnapuntame::before {
+     bottom: 0;
+     border-radius: 50% 50% 0 0;
+}
+
+.btnapuntame:hover::before {
+    height:180%;
+}
+
+
+h4 {
+    font-weight:bold;
+    text-align:center;
+}
+
+h5 {
+    text-align:center;
+    margin:0;
+}
+
+.lineaFecha {
+    display: block;
+    border: 0; border-top: 1px solid #7ABA96;
+
+}
+
+.perfil {
+    height: auto;
+    width: 8vw;
+}
+
+p {
+    text-align:justify;
+}
+
+.newsletter {
+    background-color: rgba(138, 128, 112, 0.15);
+}
+
+.newsletter h4{
+    padding-top:7%;
+}
+
+.newsletter img{
+    margin:0;
+    padding:0 6%;
+}
+
+.newsletter p {
+    padding:4%;
+}
+
+
+container {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+container>article {
+    flex:0 45%;
+}
+
+article {
+    margin:1vh 1vw;
+    margin-bottom:5vh;
+    text-align:center;
+    width:20%;
+}
+
+article a {
+    text-decoration: none;
+    font-size:1.5em;
+    font-weight: bold;
+    color: black;
+}
+
+article a:hover {
+    color:#7ABA96;
+    transition:0.5s;
+}
+
+article img {
+    width:100%;
+}
+
+.ontransitionrun {
+    animation:1s;
+}
+
+.ontransitionend {
+    animation:1s;
+}
+
+footer {
+    background-color:black;
+    text-align:center;
+    padding:3vh;
+}
+
+footer a {
+    text-decoration:none;
+    color:white;
+    margin:2vw;
+}
+
+/*scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(138, 128, 112, 0.15);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8A8070;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(122, 186, 150, 0.5);
+}
