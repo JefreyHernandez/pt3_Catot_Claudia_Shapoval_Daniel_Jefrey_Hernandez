@@ -33,10 +33,11 @@ nav a:hover {
     border: 0; border-top: 1px solid #8A8070;
 }
 
-body {
+.secc1 {
     margin-left:15%;
     margin-right:15%;
 }
+
 
 section h1 {
     text-align:left;
@@ -141,7 +142,113 @@ section h1 {
 
 .mainpage {
     display:flex;
+    margin-left:15%;
+    margin-right:15%;
+    font-size: 1.1em;
+}
+
+.parr1 {
+    text-align: justify;
+    margin-right:10vw;
+}
+
+.pasta2 {
+    width:83%;
+    margin-top:2vh;
+}
+
+.suscripcion {
+    border: 1px solid #7ABA96;
+    padding:3vh;
+    margin-right:8.6vw;
+    margin-top:6vh;
+    display:flex;
+}
+
+.imgsus {
+    width: 10em;
+    height: 10em;
+    padding:1vh;
+}
+
+.newsletter {
+    margin-left:2vh;
+}
+
+.newsletter h3 {
+    margin:0;
+    font-size:1.2em;
+    font-weight:bold;
+}
+.newsletter p {
+    font-size:0.9em;
+}
+
+.nombre,.correo {
+    padding:15px;
+    margin:10px 0;
+    border: 0.5px solid grey;
+    opacity: 0.5;
+    font-family:inherit;
+    width: 100px;
+}
+
+.correo {
+    margin-left:1vh;
+}
+
+.simeapunto {
+    padding:15px;
+    margin:10px 0;
+    border: 1px solid #7ABA96;
+    font-family:inherit;
+    font-weight:bold;
+    width: 180px;
+    background-color:#7ABA96;
+    margin-left:1vh;
+}
+
+.simeapunto:hover{
+    cursor: pointer;
+}
+
+.simeapunto:active {
+  background-color: #5F997F;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.formulari {
+    margin-bottom:2vh;
+}
+
+.consent {
+    font-size:0.6em;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color:black;
+    text-align:center;
+    padding:3vh;
+    margin:0;
+}
+
+footer a {
+    text-decoration:none;
+    color:white;
+    margin:2vw;
+}
