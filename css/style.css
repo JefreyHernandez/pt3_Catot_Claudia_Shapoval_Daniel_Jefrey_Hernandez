@@ -96,10 +96,17 @@ h5 {
     margin:0;
 }
 
+.lineaFechatop {
+    display: block;
+    border: 0; border-top: 1px solid #7ABA96;
+    margin: 0px;
+    margin-top:20px;
+}
+
 .lineaFecha {
     display: block;
     border: 0; border-top: 1px solid #7ABA96;
-
+    margin: 0px;
 }
 
 .perfil {
@@ -159,6 +166,7 @@ article a:hover {
 
 article img {
     width:100%;
+    margin-bottom:20px;
 }
 
 .ontransitionrun {

@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Pasta con salsa de coliflor y pimienta de Jamaica</title>
-    <link rel="stylesheet" href="receptes.css">
+    <link rel="stylesheet" href="Pasta.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- copiar pegar enlaces google de la fuente que queramos y el de abajo en el CSS-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header> <!-- a. Necesita un click i el # es la ruta desitno -->
         <img src="../imatges/Logo-Delicias.png">
@@ -21,216 +23,232 @@
         </nav>
         <hr class="lineaHeader">
     </header>
+
     <section>
         <h1>Pasta con Salsa de Coliflor y Pimienta de Jamaica</h1>
-        <div>
+        <div class="sep1">
             <p>Por <strong>Delicias Kitchen</strong><br>6 marzo, 2019</p>
-            <button>Receta</button>
+            <button class="btnReceta">Receta</button>
         </div>
         <hr>
         <p class="descripcion">Esta deliciosa pasta con salsa de coliflor y pimienta de Jamaica, tiene un sabor delicioso y una textura cremosa e irresistible</p>
-        <img src="../imatges/Pasta.jpg">
+        <img class="pasta1" src="../imatges/Pasta.jpg" >
+        <div class="opcions">
+            <button class="salsas">Aliños y salsas</button>
+            <button class="otros">Otros</button>
+            <button class="platos">Platos principales</button>
+            <button class="singluten">Sin gluten</button>
+            <button class="veganas">Veganas</button>
+            <button class="vegetarianas">Vegetarianas</button>
+        </div>
     </section>
-    <main>
-        <p>Hoy te propongo una deliciosa <strong>pasta con salsa de coliflor</strong> y pimienta de Jamaica, un plato completamente vegetal y saludable, que yo he preparado con pasta integral de espelta, pero que tú puedes preparar con tu salsa favorita... porque esta salsa combina con cualquiera!<br><br>Siempre es bueno tener alternativas sabrosas y distintas para poder variar nuestros platos de pasta, y aunque cada un@ tenemos nuestra salsa favorita para acompañarla, nunca está de más tener otras alternativas y atrevemos de vez en cuando con sabores y recetas nuevas.</p>
-        <img src="../imatges/Pasta.jpg">
-        <section class="suscripcion">
-            <img src="#">
-            <h3>¡Suscríbete a Delicias Kitchen!</h3>
-            <p>Recibe las últimas y más de Delicias Kitchen directamente en tu correo.</p>
-            <form>
-                <input type="text" name="name" value="Nombre">
-                <input type="email" name="email" value="Tu dirección de correo electrónico" required>
-            </form>
-            <input type="checkbox" name="correos">Al suscribirme, doy mi consentimiento para recibir correos electrónicos</input>
-        </section>
-        <h1>Propiedades de la coliflor</h1>
-        <p>El ingrediente principal de esta receta es la coliflor, una hortaliza que pertenete a la familia de las crucíferas y como ya te expliqué en la <a href="#">coliflor al horno</a> destaca por un alto contenido en elementos fitoquímicos (entre ellos los compuestos azufrados, responsables del fuerte olor que desprende durante su cocción).<br><br>Esos compuestos le aportan un potente efecto preventivo en diversos tipos de cáncer. La coliflor tiene una cantidad importante de fibra, y es una hortaliza con un bajo aporte calórico, al no contener ni hidratos de carbono ni grasas.<br><br>Es una buena fuente de vitaminas, entre las que destaca la C y diferentes vitaminas del grupo B.<br>Contiene ácido fólico y minerales como el potasio, el fósforo, el calcio y el magnesio.</p>
-        <h3>Recomendado</h3>
-        <section class="recomendado">
-            <article>
+
+    <div class="mainpage">
+        <main>
+            <p><span style="color:#7ABA96;font-weight:bold;font-size:3em;">H</span>oy te propongo una deliciosa <strong>pasta con salsa de coliflor</strong> y pimienta de Jamaica, un plato completamente vegetal y saludable, que yo he preparado con pasta integral de espelta, pero que tú puedes preparar con tu salsa favorita... porque esta salsa combina con cualquiera!<br><br>Siempre es bueno tener alternativas sabrosas y distintas para poder variar nuestros platos de pasta, y aunque cada un@ tenemos nuestra salsa favorita para acompañarla, nunca está de más tener otras alternativas y atrevemos de vez en cuando con sabores y recetas nuevas.</p>
+            <img src="../imatges/Pasta.jpg">
+            <section class="suscripcion">
                 <img src="#">
-                <h3>Something</h3>
-                <a href="">Más información</a>
-            </article>
-            <article>
-                <img src="#">
-                <h3>Something</h3>
-                <a href="">Más información</a>
-            </article>
-            <article>
-                <img src="#">
-                <h3>Something</h3>
-                <a href="">Más información</a>
-            </article>
-        </section>
-        <div class="preparacion">
-            <h3>PASTA CON SALSA DE COLIFLOR Y PIMIENTA DE JAMAICA</h3>
+                <h3>¡Suscríbete a Delicias Kitchen!</h3>
+                <p>Recibe las últimas y más de Delicias Kitchen directamente en tu correo.</p>
+                <form>
+                    <input type="text" name="name" value="Nombre">
+                    <input type="email" name="email" value="Tu dirección de correo electrónico" required>
+                </form>
+                <input type="checkbox" name="correos">Al suscribirme, doy mi consentimiento para recibir correos electrónicos</input>
+            </section>
+            <h1>Propiedades de la coliflor</h1>
+            <p>El ingrediente principal de esta receta es la coliflor, una hortaliza que pertenete a la familia de las crucíferas y como ya te expliqué en la <a href="#">coliflor al horno</a> destaca por un alto contenido en elementos fitoquímicos (entre ellos los compuestos azufrados, responsables del fuerte olor que desprende durante su cocción).<br><br>Esos compuestos le aportan un potente efecto preventivo en diversos tipos de cáncer. La coliflor tiene una cantidad importante de fibra, y es una hortaliza con un bajo aporte calórico, al no contener ni hidratos de carbono ni grasas.<br><br>Es una buena fuente de vitaminas, entre las que destaca la C y diferentes vitaminas del grupo B.<br>Contiene ácido fólico y minerales como el potasio, el fósforo, el calcio y el magnesio.</p>
+            <h3>Recomendado</h3>
+            <section class="recomendado">
+                <article>
+                    <img src="#">
+                    <h3>Something</h3>
+                    <a href="">Más información</a>
+                </article>
+                <article>
+                    <img src="#">
+                    <h3>Something</h3>
+                    <a href="">Más información</a>
+                </article>
+                <article>
+                    <img src="#">
+                    <h3>Something</h3>
+                    <a href="">Más información</a>
+                </article>
+            </section>
+            <div class="preparacion">
+                <h3>PASTA CON SALSA DE COLIFLOR Y PIMIENTA DE JAMAICA</h3>
+                <section>
+                    <div>
+                        <p>Una salsa vegana para la pasta, tan sabrosa y cremosa que resulta irresistible! Está elaborada con coliflor y con otros ingredientes vegetales, que la convierten en un plato muy nutritivo y saludable.</p>
+                        <hr>
+                    </div>
+                    <img src="../imatges/Pasta.jpg">
+                </section>
+                <table>
+                    <tr>
+                        <td><img src="#"><strong>Preparación: </strong>10 min</td>
+                        <td><img src="#"><strong>Cocción: </strong>15 min</td>
+                        <td><img src="#"><strong>Tiempo Total: </strong>25 min</td>
+                    </tr>
+                    <tr>
+                        <td><img src="#"><strong>Raciones</strong>/<strong>Piezas: </strong>2</td>
+                        <td><img src="#"><strong>Método: </strong>Cocción</td>
+                        <td><img src="#"><strong>Dieta: </strong>Vegana</td>
+                    </tr>
+                    <tr>
+                        <td><img src="#"><strong>Autor: </strong><a href="#">Delicias Kitchen</a></td>
+                        <td><img src="#"><strong>Cocina: </strong>Vegetariana, vegana</td>
+                        <td><img src="#"><strong>Categoría: </strong>Aliños y Salsas</td>
+                    </tr>
+                </table>
+                <section class="buttons">
+                    <button>IMPRIMIR</button>
+                    <button>COMENTAR</button>
+                </section>
+                <hr>
+                <h3>INGREDIENTES</h3>
+                <ul style="list-style-type: square">
+                    <li>4 cucharada de aceite de oliva virgen extra</li>
+                    <li>1 cebolla hermosa</li>
+                    <li>4 dientes de ajo</li>
+                    <li>500g de coliflor</li>
+                    <li>2 tazas de caldo vegetal</li>
+                    <li>2 cucharadas de levadura nutricional</li>
+                    <li>1/2 taza de leche de almendras</li>
+                    <li>sal</li>
+                </ul>
+                <h3>ELABORACIÓN PASO A PASO</h3>
+                <ol>
+                    <li><strong>Preparar la cebolla:</strong> Picaremos bien fina la cebolla y la sofreimos en el aceite hasta que esté translúcida.</li>
+                    <li><strong>Añadir los ajos:</strong> Añadiremos entonces los ajos prensados o picados finos.<br>Sofreimos medio minuto más.</li>
+                    <li><strong>Incluir la coliflor:</strong> Incorporaremos la coliflor troceada o separada en flores, el caldo y dejaremos cocer hasta que esté tierna, seguramente se consumirá gran parte del líquido.</li>
+                    <li><strong>Añadir el resto de ingredientes:</strong> Echaremos la preparación en el vaso de la <a href="https://bit.ly/batidoras-vitamix">Vitamix</a> y añadiremos la leche, la levadura, los granos de pimienta y un poco de sal al gusto. Batiremos hasta conseguir una textura fina.</li>
+                    <li><strong>Servir:</strong> Una vez esté bien batida, utilizaremos esta salsa para acompañar cualquier plato de pasta</li>
+                </ol>
+            </div>
+            <hr>
+            <h3>DEJA UN COMENTARIO</h3>
             <section>
-                <div>
-                    <p>Una salsa vegana para la pasta, tan sabrosa y cremosa que resulta irresistible! Está elaborada con coliflor y con otros ingredientes vegetales, que la convierten en un plato muy nutritivo y saludable.</p>
-                    <hr>
-                </div>
-                <img src="../imatges/Pasta.jpg">
+                <p>Puntúa esta receta</p>
+                <form>
+                    <p class="clasificacion"> <!-- http://w3.unpocodetodo.info/css3/estrellas.php -->
+                        <input id="radio1" type="radio" name="estellas" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estellas" value="5">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estellas" value="5">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estellas" value="5">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estellas" value="5">
+                        <label for="radio5">★</label>
+                    </p>
+                    <textarea>Tu Comentario</textarea>
+                    <input type="text" name="name" value="Nombre*" required>
+                    <input type="email" name="email" value="Email*" required>
+                </form>
+                <p>* Al usar este formulario, usted acepta el almacenamiento y manejo de su correo electrónico y resto de datos por parte de este sitio web.</p>
+                <button>Enviar</button>
             </section>
-            <table>
-                <tr>
-                    <td><img src="#"><strong>Preparación: </strong>10 min</td>
-                    <td><img src="#"><strong>Cocción: </strong>15 min</td>
-                    <td><img src="#"><strong>Tiempo Total: </strong>25 min</td>
-                </tr>
-                <tr>
-                    <td><img src="#"><strong>Raciones</strong>/<strong>Piezas: </strong>2</td>
-                    <td><img src="#"><strong>Método: </strong>Cocción</td>
-                    <td><img src="#"><strong>Dieta: </strong>Vegana</td>
-                </tr>
-                <tr>
-                    <td><img src="#"><strong>Autor: </strong><a href="#">Delicias Kitchen</a></td>
-                    <td><img src="#"><strong>Cocina: </strong>Vegetariana, vegana</td>
-                    <td><img src="#"><strong>Categoría: </strong>Aliños y Salsas</td>
-                </tr>
-            </table>
-            <section class="buttons">
-                <button>IMPRIMIR</button>
-                <button>COMENTAR</button>
+        </main>
+
+        <aside>
+            <h4>Sobre mí</h4>
+            <hr>
+            <div class="introduccion">
+                <img src="../imatges/isagil.png">
+                <p>Hola, bienvenid@ a mi blog, un espacio donde comparto mis recetas vegetarianas y veganas favoritas.</p>
+            </div>
+            <h4>Popular posts</h4>
+            <hr>
+            <section>
+                <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
+                    <img src="#">
+                    <div class="circulo">1</div>
+                    <p><strong>Something</strong></p>
+                </article>
+                <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
+                    <img src="#">
+                    <div class="circulo">2</div>
+                    <p><strong>Something</strong></p>
+                </article>
+                <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
+                    <img src="#">
+                    <div class="circulo">3</div>
+                    <p><strong>Something</strong></p>
+                </article>
+                <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
+                    <img src="#">
+                    <div class="circulo">4</div>
+                    <p><strong>Something</strong></p>
+                </article>
+                <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
+                    <img src="#">
+                    <div class="circulo">5</div>
+                    <p><strong>Something</strong></p>
+                </article>
+                <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
+                    <img src="#">
+                    <div class="circulo">6</div>
+                    <p><strong>Something</strong></p>
+                </article>
+                <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
+                    <img src="#">
+                    <div class="circulo">7</div>
+                    <p><strong>Something</strong></p>
+                </article>
+                <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
+                    <img src="#">
+                    <div class="circulo">8</div>
+                    <p><strong>Something</strong></p>
+                </article>
+
             </section>
+            <h4>Artículos que te pueden interesar</h4>
             <hr>
-            <h3>INGREDIENTES</h3>
-            <ul style="list-style-type: square">
-                <li>4 cucharada de aceite de oliva virgen extra</li>
-                <li>1 cebolla hermosa</li>
-                <li>4 dientes de ajo</li>
-                <li>500g de coliflor</li>
-                <li>2 tazas de caldo vegetal</li>
-                <li>2 cucharadas de levadura nutricional</li>
-                <li>1/2 taza de leche de almendras</li>
-                <li>sal</li>
-            </ul>
-            <h3>ELABORACIÓN PASO A PASO</h3>
-            <ol>
-                <li><strong>Preparar la cebolla:</strong> Picaremos bien fina la cebolla y la sofreimos en el aceite hasta que esté translúcida.</li>
-                <li><strong>Añadir los ajos:</strong> Añadiremos entonces los ajos prensados o picados finos.<br>Sofreimos medio minuto más.</li>
-                <li><strong>Incluir la coliflor:</strong> Incorporaremos la coliflor troceada o separada en flores, el caldo y dejaremos cocer hasta que esté tierna, seguramente se consumirá gran parte del líquido.</li>
-                <li><strong>Añadir el resto de ingredientes:</strong> Echaremos la preparación en el vaso de la <a href="https://bit.ly/batidoras-vitamix">Vitamix</a> y añadiremos la leche, la levadura, los granos de pimienta y un poco de sal al gusto. Batiremos hasta conseguir una textura fina.</li>
-                <li><strong>Servir:</strong> Una vez esté bien batida, utilizaremos esta salsa para acompañar cualquier plato de pasta</li>
-            </ol>
-        </div>
-        <hr>
-        <h3>DEJA UN COMENTARIO</h3>
-        <section>
-            <p>Puntúa esta receta</p>
-            <form>
-                <p class="clasificacion"> <!-- http://w3.unpocodetodo.info/css3/estrellas.php -->
-                    <input id="radio1" type="radio" name="estellas" value="5">
-                    <label for="radio1">★</label>
-                    <input id="radio2" type="radio" name="estellas" value="5">
-                    <label for="radio2">★</label>
-                    <input id="radio3" type="radio" name="estellas" value="5">
-                    <label for="radio3">★</label>
-                    <input id="radio4" type="radio" name="estellas" value="5">
-                    <label for="radio4">★</label>
-                    <input id="radio5" type="radio" name="estellas" value="5">
-                    <label for="radio5">★</label>
-                </p>
-                <textarea>Tu Comentario</textarea>
-                <input type="text" name="name" value="Nombre*" required>
-                <input type="email" name="email" value="Email*" required>
-            </form>
-            <p>* Al usar este formulario, usted acepta el almacenamiento y manejo de su correo electrónico y resto de datos por parte de este sitio web.</p>
-            <button>Enviar</button>
-        </section>
-    </main>
-    <aside>
-        <h4>Sobre mí</h4>
-        <hr>
-        <div class="introduccion">
-            <img src="../imatges/isagil.png">
-            <p>Hola, bienvenid@ a mi blog, un espacio donde comparto mis recetas vegetarianas y veganas favoritas.</p>
-        </div>
-        <h4>Popular posts</h4>
-        <hr>
-        <section>
-            <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
-                <img src="#">
-                <div class="circulo">1</div>
-                <p><strong>Something</strong></p>
-            </article>
-            <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
-                <img src="#">
-                <div class="circulo">2</div>
-                <p><strong>Something</strong></p>
-            </article>
-            <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
-                <img src="#">
-                <div class="circulo">3</div>
-                <p><strong>Something</strong></p>
-            </article>
-            <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
-                <img src="#">
-                <div class="circulo">4</div>
-                <p><strong>Something</strong></p>
-            </article>
-            <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
-                <img src="#">
-                <div class="circulo">5</div>
-                <p><strong>Something</strong></p>
-            </article>
-            <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
-                <img src="#">
-                <div class="circulo">6</div>
-                <p><strong>Something</strong></p>
-            </article>
-            <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
-                <img src="#">
-                <div class="circulo">7</div>
-                <p><strong>Something</strong></p>
-            </article>
-            <article> <!-- https://www.w3docs.com/snippets/css/how-to-add-a-circle-around-a-number-in-css.html -->
-                <img src="#">
-                <div class="circulo">8</div>
-                <p><strong>Something</strong></p>
-            </article>
-        </section>
-        <h4>Artículos que te pueden interesar</h4>
-        <hr>
-        <section>
-            <article>
-                <a href="#">something</a>
-            </article>
-            <hr>
-            <article>
-                <a href="#">something</a>
-            </article>
-            <hr>
-            <article>
-                <a href="#">something</a>
-            </article>
-            <hr>
-            <article>
-                <a href="#">something</a>
-            </article>
-            <hr>
-            <article>
-                <a href="#">something</a>
-            </article>
-            <hr>
-            <article>
-                <a href="#">something</a>
-            </article>
-            <hr>
-            <article>
-                <a href="#">something</a>
-            </article>
-            <hr>
-            <article>
-                <a href="#">something</a>
-            </article>
-            <hr>
-            <article>
-                <a href="#">something</a>
-            </article>
-        </section>
-    </aside>
+            <section>
+                <article>
+                    <a href="#">something</a>
+                </article>
+                <hr>
+                <article>
+                    <a href="#">something</a>
+                </article>
+                <hr>
+                <article>
+                    <a href="#">something</a>
+                </article>
+                <hr>
+                <article>
+                    <a href="#">something</a>
+                </article>
+                <hr>
+                <article>
+                    <a href="#">something</a>
+                </article>
+                <hr>
+                <article>
+                    <a href="#">something</a>
+                </article>
+                <hr>
+                <article>
+                    <a href="#">something</a>
+                </article>
+                <hr>
+                <article>
+                    <a href="#">something</a>
+                </article>
+                <hr>
+                <article>
+                    <a href="#">something</a>
+                </article>
+            </section>
+        </aside>
+    </div>
+
+
     <footer>
         <a href="#">FACEBOOK</a>
         <a href="#">TWITTER</a>
@@ -238,5 +256,7 @@
         <a href="#">EMAIL</a>
         <a href="#">RSS</a>
     </footer>
+
 </body>
+
 </html>

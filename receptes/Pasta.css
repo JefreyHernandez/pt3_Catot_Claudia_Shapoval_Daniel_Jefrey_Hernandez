@@ -1,3 +1,147 @@
 body {
-    background-color:red;
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
 }
+
+header {
+    margin-top:40px;
+    text-align:center;
+    font-weight:bold;
+    position:sticky;
+    top:0;
+    background-color:white;
+}
+
+nav {
+    margin:1vh 0;
+}
+
+nav a {
+    text-decoration:none;
+    color:black;
+    transition:0.5s;
+    margin:1.5vw;
+}
+
+nav a:hover {
+    color:#7ABA96;
+}
+
+.lineaHeader {
+    display: block;
+    border: 0; border-top: 1px solid #8A8070;
+}
+
+body {
+    margin-left:15%;
+    margin-right:15%;
+}
+
+section h1 {
+    text-align:left;
+    font-size:2em;
+    font-weight:bold;
+}
+
+.sep1 {
+    font-size: 0.8em;
+    color: grey;
+    display:flex;
+}
+
+.btnReceta {
+    background-color: white;
+    color: black;
+    font-weight:bold;
+    border: 2px solid #7ABA96;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100px;
+    height:40px;
+    margin-bottom:10px;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    margin-left:auto;
+    margin-right:20px;
+}
+.btnReceta:hover {
+    background-color: #7ABA96;
+    color: white;
+}
+
+.pasta1 {
+    width:100%;
+}
+
+.opcions {
+    margin-bottom:50px;
+}
+
+.salsas{
+    background-color: white;
+    color:#7ABA96;
+    border: 1px solid #7ABA96;
+    cursor: pointer;
+    width: 80px;
+    height:30px;
+    width: 120px;
+    margin-top:50px;
+}
+.salsas:hover {
+    font-weight:bold;
+}
+
+.otros {
+    background-color: white;
+    color:#7ABA96;
+    border: 1px solid #7ABA96;
+    cursor: pointer;
+    width: 80px;
+    height:30px;
+    width: 50px;
+    margin-top:50px;
+    margin-left:10px;
+}
+.otros:hover {
+    font-weight:bold;
+}
+
+.platos,.vegetarianas {
+    background-color: white;
+    color:#7ABA96;
+    border: 1px solid #7ABA96;
+    cursor: pointer;
+    width: 80px;
+    height:30px;
+    width: 130px;
+    margin-top:50px;
+    margin-left:10px;
+}
+
+.platos:hover,.vegetarianas:hover {
+    font-weight:bold;
+}
+
+.singluten,.veganas {
+    background-color: white;
+    color:#7ABA96;
+    border: 1px solid #7ABA96;
+    cursor: pointer;
+    width: 80px;
+    height:30px;
+    width: 80px;
+    margin-top:50px;
+    margin-left:10px;
+}
+
+.singluten:hover,.veganas:hover {
+    font-weight:bold;
+}
+
+.mainpage {
+    display:flex;
+}
+
+
+
