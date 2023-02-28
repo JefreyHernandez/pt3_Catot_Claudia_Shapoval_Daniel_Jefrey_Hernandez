@@ -1,0 +1,20 @@
+.divisor, section {
+    display: flex;
+}
+
+img {
+    width: 10px;
+}
+
+.divisor {
+    margin: 0 25%;
+}
+
+main {
+    width: 100%;
+    background-color: red;
+}
+
+aside {
+    background-color: blue;
+}
