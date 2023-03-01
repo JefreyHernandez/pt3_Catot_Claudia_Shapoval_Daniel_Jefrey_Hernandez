@@ -301,6 +301,9 @@ section h1 {
     height: 10em;
     padding:1vh;
 }
+.artrecomendado h3 {
+    font-size:1em;
+}
 
 .artrecomendado a {
     text-decoration:none;
@@ -314,11 +317,67 @@ section h1 {
 }
 
 
+.preparacion {
+    margin-top:10vh;
+    margin-right:10vh;
+    border:2px solid #8A8070;
+}
+.preparacion h3 {
+    text-align:center;
+    font-weight:bold;
+    font-size:1.5em;
+}
+.preparacion hr {
+    margin-left:5vh;
+    margin-right:5vh;
+}
 
+.descprep {
+    display:flex;
+}
+.descprep p {
+    padding:4vh;
+    line-height:40px;
+}
+.descprep img {
+    width: 15em;
+    height: 7em;
+    padding:5vh;
+}
 
+table {
+    padding: 5vh;
+}
+.columna1,.columna2,columna3 {
+    line-height:60px;
+    /*  NO SÉ PONER LOS PINCHES ESPACIOS
+    ENTRE LAS TABLES (= LO MISMO ME PASA CON
+    LAS FOTOS DEL DISPLAY DEL COMENTARIO
+    ANTERIORRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
+}
+table img {
+    width:1.5em;
+    height:1.5em;
+    margin-right:1vh;
+}
 
+.dk {
+    text-decoration:none;
+    font-weight:bold;
+    color:#7ABA96;
+}
 
-
+.buttons {
+    background-color:#7ABA96;
+    border:none;
+    color:white;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px;
+    margin-left:35%;
+}
 
 
 footer {
@@ -332,4 +391,6 @@ footer a {
     text-decoration:none;
     color:white;
     margin:2vw;
+
 }
+
