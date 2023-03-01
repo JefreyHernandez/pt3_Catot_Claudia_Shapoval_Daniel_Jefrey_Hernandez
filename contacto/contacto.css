@@ -1,20 +1,110 @@
-.divisor, section {
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin:0;
+    padding:0;
+}
+
+header {
+    margin-top:40px;
+    text-align:center;
+    font-weight:bold;
+    position:sticky;
+    top:0;
+    background-color:white;
+}
+
+nav {
+    margin:1vh 0;
+}
+
+nav a {
+    text-decoration:none;
+    color:black;
+    transition:0.5s;
+    margin:1.5vw;
+}
+
+nav a:hover {
+    color:#7ABA96;
+}
+
+.lineaHeader {
+    display: block;
+    border: 0; border-top: 1px solid #8A8070;
+}
+
+.lineBottom {
+    margin-bottom: 8vh;
+}
+
+.divisor, .info, .buttonSection {
     display: flex;
 }
 
-img {
-    width: 10px;
+.icon {
+    width: 15px;
+    height: 15px;
+    margin: 8px 15px 0 0;
+}
+
+.info p {
+    font-size: 0.6em;
+}
+
+.pinfo {
+    margin-top: -4px;
+    font-size: 0.9em;
 }
 
 .divisor {
-    margin: 0 25%;
+    margin: 0 25vw;
 }
 
 main {
     width: 100%;
-    background-color: red;
+    margin: 2vh 0;
+    box-shadow: 5px 5px 50px rgb(194, 194, 194);
+    z-index: -1;
+    padding: 2vh 2vw;
 }
 
 aside {
-    background-color: blue;
+    background-color: #7ABA96;
+    padding: 2vh 2vw;
+    width: 20vw;
+    border-radius: 10px;
+}
+
+.buttonSection {
+    display: block;
+    text-align: center;
+    margin: 1vh 0;
+    padding: 3vh 0;
+}
+
+.btn{
+    margin: 10px 0;
+    min-width: 100%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: #b9f0d1;
+    overflow: hidden;
+    font-weight: bold;
+    transition: 2s;
+}
+
+footer {
+    background-color:black;
+    text-align:center;
+    padding:3vh;
+    margin: 10vh 0 0 0;
+}
+
+footer a {
+    text-decoration:none;
+    color:white;
+    margin:2vw;
 }

@@ -4,72 +4,75 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- copiar pegar enlaces google de la fuente que queramos y el de abajo en el CSS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
   <header> <!-- a. Necesita un click i el # es la ruta desitno -->
-    <a href="../receptes/recepta/Pasta.html">
+    <a href="../index.html">
       <img src="../imatges/Logo-Delicias.png">
     </a>
     <hr class="lineaHeader">
     <nav>
       <a href="../index.html">INICIO</a>
       <a href="#">SOBRE MÍ</a>
-      <a href="">RECETAS</a>
-      <a href="#">CONTACTO</a>
+      <a href="../receptes/receptes.html">RECETAS</a>
+      <a href="contacto.html">CONTACTO</a>
       <a href="#">OTRAS COSAS</a>
     </nav>
-    <hr class="lineaHeader">
+    <hr class="lineaHeader lineBottom">
   </header>
   <div class="divisor">
     <aside>
       <h3>Información de contacto</h3>
       <div>
         <section>
-          <div>
-            <img src="../imatges/user.png">
+          <div class="info">
+            <img class="icon" src="../imatges/user.png">
             <p>Nombre</p>
           </div>
-          <p>Isa Gil</p>
+          <p class="pinfo">Isa Gil</p>
         </section>
         <section>
-          <div>
-            <img src="../imatges/email.png">
+          <div class="info">
+            <img class="icon" src="../imatges/email.png">
             <p>Email</p>
           </div>
-          <p>hola@deliciaskitchen.com</p>
+          <p class="pinfo">hola@deliciaskitchen.com</p>
         </section>
         <section>
-          <div>
-            <img src="../imatges/phone-call.png">
+          <div class="info">
+            <img class="icon" src="../imatges/phone-call.png">
             <p>Teléfono</p>
           </div>
-          <p>+34 123456789</p>
+          <p class="pinfo">+34 123456789</p>
         </section>
         <section>
-          <div>
-            <img src="../imatges/maps-and-flags.png">
+          <div class="info">
+            <img class="icon" src="../imatges/maps-and-flags.png">
             <p>Dirección</p>
           </div>
-          <p>Lisakovsk Pentagram Unnamed Road,, 110000, Kazajistán</p>
+          <p class="pinfo">Lisakovsk Pentagram Unnamed Road,, 110000, Kazajistán</p>
         </section>
       </div>
-      <section>
-        <button>Iniciar Sesión</button>
-        <button>Registrarse</button>
+      <section class="buttonSection">
+        <button class="btn">Iniciar Sesión</button>
+        <button class="btn">Registrarse</button>
+        <button class="btn">Añadir receta</button>
       </section>
-      <button>Añadir receta</button>
       <div>
         <a href="#">
-          <img src="../imatges/facebook-app-symbol.png">
+          <img class="icon" src="../imatges/facebook-app-symbol.png">
         </a>
         <a href="#">
-          <img src="../imatges/instagram.png">
+          <img class="icon" src="../imatges/instagram.png">
         </a>
         <a href="#">
-          <img src="../imatges/twitter.png">
+          <img class="icon" src="../imatges/twitter.png">
         </a>
         <a href="#">
-          <img src="../imatges/youtube.png">
+          <img class="icon" src="../imatges/youtube.png">
         </a>
       </div>
     </aside>
