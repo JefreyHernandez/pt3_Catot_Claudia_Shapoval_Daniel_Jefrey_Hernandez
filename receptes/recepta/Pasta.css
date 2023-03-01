@@ -147,9 +147,10 @@ section h1 {
     font-size: 1.1em;
 }
 
-.parr1 {
+.parr1,.parr2 {
     text-align: justify;
-    margin-right:10vw;
+    margin-right:9vw;
+    line-height : 25px;
 }
 
 .pasta2 {
@@ -223,16 +224,62 @@ section h1 {
 }
 
 .consent {
-    font-size:0.6em;
+  display:block;
+  position:relative;
+  padding-left:35px;
+  margin-bottom:12px;
+  margin-top:5px;
+  cursor:pointer;
+  font-size:12px;
+}
+.consent input {
+  position:absolute;
+  opacity:0;
+  cursor:pointer;
+  height:0;
+  width:0;
+}
+.checkmark {
+  position:absolute;
+  top:0;
+  left:0;
+  height:12px;
+  width:12px;
+  background-color:white;
+  border:2px solid #7ABA96;
+}
+.checkmark:hover{
+  background-color:#E3E4E5;
+}
+.consent input:checked ~ .checkmark {
+  background-color: #7ABA96;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.consent input:checked ~ .checkmark:after {
+  display: block;
+}
+.consent .checkmark:after {
+  left: 3px;
+  width: 3px;
+  height: 10px;
+  border:solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
 }
 
+.propiedades {
+    margin-top:5vh;
+}
 
-
-
-
-
-
-
+.coli {
+    text-decoration:none;
+    font-weight:bold;
+    color:#7ABA96;
+}
 
 
 
