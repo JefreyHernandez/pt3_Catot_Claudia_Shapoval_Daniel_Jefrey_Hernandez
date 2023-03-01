@@ -281,6 +281,40 @@ section h1 {
     color:#7ABA96;
 }
 
+.rec {
+    font-weight:bold;
+    font-size:22px;
+    margin-top:5vh;
+}
+
+.recomendado {
+    display:flex;
+}
+
+.artrecomendado {
+    padding:2vh;
+    /* PONERLO EN LÍNEA CON EL TEXTO DEL MAI (AJUSTADO)*/
+}
+
+.artrecomendado img{
+    width: 15em;
+    height: 10em;
+    padding:1vh;
+}
+
+.artrecomendado a {
+    text-decoration:none;
+    font-size:0.8em;
+    font-weight:bold;
+    color:#7ABA96;
+}
+
+.receta {
+    margin-top:10vh;
+}
+
+
+
 
 
 
