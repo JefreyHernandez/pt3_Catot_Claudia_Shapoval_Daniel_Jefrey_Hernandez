@@ -3,7 +3,6 @@
     margin-right:15%;
 }
 
-
 section h1 {
     text-align:left;
     font-size:2em;
@@ -47,66 +46,21 @@ section h1 {
     margin-bottom:50px;
 }
 
-.salsas{
+.opcions button {
     background-color: white;
     color:#7ABA96;
     border: 1px solid #7ABA96;
     cursor: pointer;
-    width: 80px;
     height:30px;
-    width: 120px;
-    margin-top:50px;
-}
-.salsas:hover {
-    font-weight:bold;
-}
-
-.otros {
-    background-color: white;
-    color:#7ABA96;
-    border: 1px solid #7ABA96;
-    cursor: pointer;
-    width: 80px;
-    height:30px;
-    width: 50px;
-    margin-top:50px;
-    margin-left:10px;
-}
-.otros:hover {
-    font-weight:bold;
-}
-
-.platos,.vegetarianas {
-    background-color: white;
-    color:#7ABA96;
-    border: 1px solid #7ABA96;
-    cursor: pointer;
-    width: 80px;
-    height:30px;
-    width: 130px;
+    width: 100%px;
     margin-top:50px;
     margin-left:10px;
 }
 
-.platos:hover,.vegetarianas:hover {
-    font-weight:bold;
+.opcions button:hover {
+    font-weight: bold;
 }
 
-.singluten,.veganas {
-    background-color: white;
-    color:#7ABA96;
-    border: 1px solid #7ABA96;
-    cursor: pointer;
-    width: 80px;
-    height:30px;
-    width: 80px;
-    margin-top:50px;
-    margin-left:10px;
-}
-
-.singluten:hover,.veganas:hover {
-    font-weight:bold;
-}
 
 .mainpage {
     display:flex;
