@@ -43,10 +43,6 @@ article img {
     outline-offset:  -4px;
 }
 
-article h5 {
-
-}
-
 main {
     display: grid;
     width: 100%;
@@ -57,4 +53,9 @@ main {
 
 article {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

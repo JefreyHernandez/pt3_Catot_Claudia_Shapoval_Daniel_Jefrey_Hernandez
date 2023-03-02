@@ -1,24 +1,37 @@
-.secc1 {
-    margin-left:15%;
-    margin-right:15%;
+
+main {
+    margin-right: 50px;;
+}
+
+.sep1, .mainpage, .suscripcion, .consent, .recomendado, .descprep,
+.introduccion {
+    display: flex;
+}
+
+section h1, .btnReceta, .opcions button:hover, .newsletter h3,
+.simeapunto, .coli, .vitamix, .rec, .artrecomendado a, .pastatitulo,
+.dk, .imp:hover, .come:hover, .ing, .elab, .puntua, .botonenviar,
+.terminosyc, aside h4, .interes a:hover{
+    font-weight: bold;
+}
+
+.secc1, .mainpage {
+    margin: 0 15%;
 }
 
 section h1 {
     text-align:left;
     font-size:2em;
-    font-weight:bold;
 }
 
 .sep1 {
     font-size: 0.8em;
     color: grey;
-    display:flex;
 }
 
 .btnReceta {
     background-color: white;
     color: black;
-    font-weight:bold;
     border: 2px solid #7ABA96;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
     width: 100px;
@@ -26,7 +39,7 @@ section h1 {
     margin-bottom:10px;
     transition-duration: 0.5s;
     margin-left:auto;
-    margin-right:20px;
+
 }
 .btnReceta:hover {
     background-color: #7ABA96;
@@ -57,35 +70,24 @@ section h1 {
     margin-left:10px;
 }
 
-.opcions button:hover {
-    font-weight: bold;
-}
-
-
 .mainpage {
-    display:flex;
-    margin-left:15%;
-    margin-right:15%;
     font-size: 1.1em;
 }
 
 .parr1,.parr2 {
     text-align: justify;
-    margin-right:9vw;
     line-height : 25px;
 }
 
 .pasta2 {
-    width:83%;
+    width: 100%;
     margin-top:2vh;
 }
 
 .suscripcion {
     border: 1px solid #7ABA96;
     padding:3vh;
-    margin-right:8.6vw;
     margin-top:6vh;
-    display:flex;
 }
 
 .imgsus {
@@ -101,8 +103,8 @@ section h1 {
 .newsletter h3 {
     margin:0;
     font-size:1.2em;
-    font-weight:bold;
 }
+
 .newsletter p {
     font-size:0.9em;
 }
@@ -122,13 +124,11 @@ section h1 {
 
 .simeapunto {
     padding:15px;
-    margin:10px 0;
+    margin:10px 1vh 10px 0;
     border: 1px solid #7ABA96;
     font-family:inherit;
-    font-weight:bold;
     width: 180px;
     background-color:#7ABA96;
-    margin-left:1vh;
 }
 
 .simeapunto:hover{
@@ -146,7 +146,6 @@ section h1 {
 }
 
 .consent {
-  display:block;
   position:relative;
   padding-left:35px;
   margin-bottom:12px;
@@ -199,30 +198,25 @@ section h1 {
 
 .coli,.vitamix {
     text-decoration:none;
-    font-weight:bold;
     color:#7ABA96;
 }
 
 .rec {
-    font-weight:bold;
     font-size:22px;
     margin-top:5vh;
 }
 
-.recomendado {
-    display:flex;
-}
-
 .artrecomendado {
-    padding:2vh;
-    /* PONERLO EN LÍNEA CON EL TEXTO DEL MAI (AJUSTADO)*/
+    width: 90%;
+    margin: 0 10px;
 }
 
 .artrecomendado img{
-    width: 15em;
-    height: 10em;
-    padding:1vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .artrecomendado h3 {
     font-size:1em;
 }
@@ -230,7 +224,6 @@ section h1 {
 .artrecomendado a {
     text-decoration:none;
     font-size:0.8em;
-    font-weight:bold;
     color:#7ABA96;
 }
 
@@ -241,22 +234,16 @@ section h1 {
 
 .preparacion {
     margin-top:10vh;
-    margin-right:10vh;
     border:2px solid #8A8070;
 }
 .pastatitulo {
     text-align:center;
-    font-weight:bold;
     font-size:1.5em;
 }
 .preparacion hr {
     margin-left:5vh;
-    margin-right:5vh;
 }
 
-.descprep {
-    display:flex;
-}
 .descprep p,.listaing,.pasoapaso {
     padding:4vh;
     line-height:40px;
@@ -270,22 +257,18 @@ section h1 {
 table {
     padding: 5vh;
 }
+
 .columna1,.columna2,columna3 {
     line-height:60px;
-    /*  NO SÉ PONER LOS PINCHES ESPACIOS
-    ENTRE LAS TABLES (= LO MISMO ME PASA CON
-    LAS FOTOS DEL DISPLAY DEL COMENTARIO
-    ANTERIORRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
 }
+
 table img {
     width:1.5em;
     height:1.5em;
-    margin-right:1vh;
 }
 
 .dk {
     text-decoration:none;
-    font-weight:bold;
     color:#7ABA96;
 }
 
@@ -309,12 +292,10 @@ table img {
 .imp:hover,.come:hover {
     background-color:#5F997F;
     cursor: pointer;
-    font-weight:bold;
 }
 
 .ing,.elab {
     font-size:1em;
-    font-weight:bold;
     margin-top:5vh;
     margin-left:5vh;
 }
@@ -351,7 +332,6 @@ footer a {
 .puntua {
     text-align:center;
     font-size:12px;
-    font-weight:bold;
     color:grey;
 }
 
@@ -380,10 +360,10 @@ input[type="radio"]:checked~label {
 
 textarea,.nombreform,.emailform {
     font-family:inherit;
-    padding:1vh;
+    padding: 1vh;
 }
 textarea {
-    width:100%;
+    width:95%;
     margin-bottom:2vh;
 }
 .nombreform,.emailform {
@@ -392,21 +372,18 @@ textarea {
 
 .terminosyc {
     font-size:12px;
-    font-weight:bold;
     color:grey;
 }
 
 .botonenviar {
     background-color: #E3E4E5;
     color: black;
-    font-weight:bold;
     border:none;
     cursor: pointer;
     width: 100px;
     height:40px;
     transition-duration: 0.5s;
     margin-left:45%;
-    margin-right:20px;
     margin-top:2vh;
     margin-bottom:10vh;
 }
@@ -417,7 +394,6 @@ textarea {
 }
 
 aside h4 {
-    font-weight:bold;
     text-align:center;
 }
 
@@ -426,30 +402,23 @@ aside hr {
     margin-bottom:2vh;
 }
 
-.introduccion {
-    display:flex;
-    margin:0 -2vh;
-}
-
 .introduccion p {
-    margin:0 1vh;
+    margin: auto 2vw;
 }
 
 .pp {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 10px;
     position: relative;
-    margin-bottom:5vh;
-}
-.grid-item {
-    overflow: hidden;
 }
 
 .nombrepp img {
-    width: 100%;
+    width: 80%;
+    margin: 20px auto;
     display: block;
+    outline: 1px solid white;
+    outline-offset: -4px;
 }
 
 .interes a {
@@ -458,6 +427,5 @@ aside hr {
 }
 
 .interes a:hover {
-    font-weight:bold;
     color:#7ABA96;
 }
