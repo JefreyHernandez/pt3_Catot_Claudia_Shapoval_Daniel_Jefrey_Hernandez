@@ -3,7 +3,6 @@
     margin-right:15%;
 }
 
-
 section h1 {
     text-align:left;
     font-size:2em;
@@ -21,7 +20,7 @@ section h1 {
     color: black;
     font-weight:bold;
     border: 2px solid #7ABA96;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
     width: 100px;
     height:40px;
     margin-bottom:10px;
@@ -479,16 +478,5 @@ aside hr {
 }
 
 
-footer {
-    background-color:black;
-    text-align:center;
-    padding:3vh;
-    margin:0;
-}
 
-footer a {
-    text-decoration:none;
-    color:white;
-    margin:2vw;
-}
 

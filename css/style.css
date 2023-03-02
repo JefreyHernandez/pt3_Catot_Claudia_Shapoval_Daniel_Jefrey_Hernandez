@@ -142,17 +142,6 @@ article img {
     animation:1s;
 }
 
-footer {
-    background-color:black;
-    text-align:center;
-    padding:3vh;
-}
-
-footer a {
-    text-decoration:none;
-    color:white;
-    margin:2vw;
-}
 
 ::-webkit-scrollbar {
   width: 10px;
