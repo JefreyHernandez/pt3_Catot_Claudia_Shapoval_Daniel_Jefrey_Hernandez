@@ -3,6 +3,7 @@
     margin-right:15%;
 }
 
+
 section h1 {
     text-align:left;
     font-size:2em;
@@ -388,7 +389,11 @@ table img {
     text-decoration: underline overline #7ABA96;
 }
 
-
+footer a {
+    text-decoration:none;
+    color:white;
+    margin:2vw;
+}
 .puntua {
     text-align:center;
     font-size:12px;

@@ -10,18 +10,49 @@ aside {
     width: 25%;
 }
 
-li {
+ul {
     list-style-type: none;
     text-align: center;
     padding: 1vh 30px;
 }
 
-.separator {
+ul * {
+    margin: 0.2vh 0;
+}
 
+.separator {
+    border: 0; border-top: 1px solid #8A8070;
+    margin: 10px 0;
 }
 button {
     border: none;
     text-align: center;
     padding: 20px 0;
     width: 100%;
+    background-color: rgb(185, 227, 195, 0.3);
+    cursor: pointer;
+}
+
+button:focus {
+    background-color: rgb(185, 227, 195, 0.5);
+}
+
+article img {
+    width: 85%;
+}
+
+article h5 {
+
+}
+
+main {
+    display: grid;
+    width: 100%;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+}
+
+article {
+    text-align: center;
 }
