@@ -30,7 +30,7 @@
         <h1>Pasta con Salsa de Coliflor y Pimienta de Jamaica</h1>
         <div class="sep1">
             <p>Por <strong>Delicias Kitchen</strong><br>6 marzo, 2019</p>
-            <button class="btnReceta">Receta</button>
+            <button class="btnReceta"><a href="#recetalink">Receta</a></button>
         </div>
         <hr>
         <p class="descripcion">Esta deliciosa pasta con salsa de coliflor y pimienta de Jamaica, tiene un sabor delicioso y una textura cremosa e irresistible</p>
@@ -48,7 +48,7 @@
     <div class="mainpage">
         <main>
             <p class="parr1"><span style="color:#7ABA96;font-weight:bold;font-size:3em;">H</span>oy te propongo una deliciosa <strong>pasta con salsa de coliflor</strong> y pimienta de Jamaica, un plato completamente vegetal y saludable, que yo he preparado con pasta integral de espelta, pero que tú puedes preparar con tu salsa favorita... porque esta salsa combina con cualquiera!<br><br>Siempre es bueno tener alternativas sabrosas y distintas para poder variar nuestros platos de pasta, y aunque cada un@ tenemos nuestra salsa favorita para acompañarla, nunca está de más tener otras alternativas y atrevemos de vez en cuando con sabores y recetas nuevas.</p>
-            <img class="pasta2" src="../imatges/Pasta2.jpg">
+            <img class="pasta2" src="../../imatges/pasta2.jpg">
             <section class="suscripcion">
                 <img class="imgsus" src="../../imatges/suscribete.jpeg">
                 <div class="newsletter">
@@ -86,11 +86,11 @@
                 </article>
             </section>
 
-            <h1 class="receta">Receta de pasta con salsa de coliflor y pimienta de Jamaica</h1>
+            <h1 class="receta" id="recetalink">Receta de pasta con salsa de coliflor y pimienta de Jamaica</h1>
             <p class="parr2">Y nada más, te dejo con esta riquísima y súper sencilla pasta con salsa de coliflor y pimienta de Jamaica. Tienes que probarla, ¡seguro que te sorprederá!<br><br>¡Que tengas un muy feliz día! ¡A disfrutar! &#128523;</p>
 
             <div class="preparacion">
-                <h3>PASTA CON SALSA DE COLIFLOR Y PIMIENTA DE JAMAICA</h3>
+                <h3 class="pastatitulo">PASTA CON SALSA DE COLIFLOR Y PIMIENTA DE JAMAICA</h3>
                 <section>
                     <div class="descprep">
                         <p>Una salsa vegana para la pasta, tan sabrosa y cremosa que resulta irresistible! Está elaborada con coliflor y con otros ingredientes vegetales, que la convierten en un plato muy nutritivo y saludable.</p>
@@ -115,13 +115,11 @@
                         <td><img src="../../imatges/categoria.png"><strong>Categoría: </strong>Aliños y Salsas</td>
                     </tr>
                 </table>
-                <section class="buttons">
-                    <button class="imp">IMPRIMIR</button>
-                    <button class="come">COMENTAR</button>
-                </section>
+                <button class="imp">IMPRIMIR</button>
+                <button class="come">COMENTAR</button>
                 <hr>
-                <h3>INGREDIENTES</h3>
-                <ul style="list-style-type: square">
+                <h3 class="ing">INGREDIENTES</h3>
+                <ul class="listaing" style="list-style-type: square">
                     <li>4 cucharada de aceite de oliva virgen extra</li>
                     <li>1 cebolla hermosa</li>
                     <li>4 dientes de ajo</li>
@@ -131,19 +129,19 @@
                     <li>1/2 taza de leche de almendras</li>
                     <li>sal</li>
                 </ul>
-                <h3>ELABORACIÓN PASO A PASO</h3>
-                <ol>
+                <h3 class="elab">ELABORACIÓN PASO A PASO</h3>
+                <ol class="pasoapaso">
                     <li><strong>Preparar la cebolla:</strong> Picaremos bien fina la cebolla y la sofreimos en el aceite hasta que esté translúcida.</li>
                     <li><strong>Añadir los ajos:</strong> Añadiremos entonces los ajos prensados o picados finos.<br>Sofreimos medio minuto más.</li>
                     <li><strong>Incluir la coliflor:</strong> Incorporaremos la coliflor troceada o separada en flores, el caldo y dejaremos cocer hasta que esté tierna, seguramente se consumirá gran parte del líquido.</li>
-                    <li><strong>Añadir el resto de ingredientes:</strong> Echaremos la preparación en el vaso de la <a href="https://bit.ly/batidoras-vitamix">Vitamix</a> y añadiremos la leche, la levadura, los granos de pimienta y un poco de sal al gusto. Batiremos hasta conseguir una textura fina.</li>
+                    <li><strong>Añadir el resto de ingredientes:</strong> Echaremos la preparación en el vaso de la <a class="vitamix" href="https://bit.ly/batidoras-vitamix">Vitamix</a> y añadiremos la leche, la levadura, los granos de pimienta y un poco de sal al gusto. Batiremos hasta conseguir una textura fina.</li>
                     <li><strong>Servir:</strong> Una vez esté bien batida, utilizaremos esta salsa para acompañar cualquier plato de pasta</li>
                 </ol>
             </div>
-            <hr>
-            <h3>DEJA UN COMENTARIO</h3>
+            <hr class="lineafinal">
+            <h3 class="dejacom">DEJA UN COMENTARIO</h3>
             <section>
-                <p>Puntúa esta receta</p>
+                <p class="puntua">Puntúa esta receta</p>
                 <form>
                     <p class="clasificacion"> <!-- http://w3.unpocodetodo.info/css3/estrellas.php -->
                         <input id="radio1" type="radio" name="estellas" value="5">
@@ -157,12 +155,12 @@
                         <input id="radio5" type="radio" name="estellas" value="5">
                         <label for="radio5">★</label>
                     </p>
-                    <textarea>Tu Comentario</textarea>
-                    <input type="text" name="name" value="Nombre*" required>
-                    <input type="email" name="email" value="Email*" required>
                 </form>
-                <p>* Al usar este formulario, usted acepta el almacenamiento y manejo de su correo electrónico y resto de datos por parte de este sitio web.</p>
-                <button>Enviar</button>
+                <textarea>Tu Comentario</textarea>
+                    <input class="nombreform" type="text" name="name" value="Nombre *" required>
+                    <input class="emailform" type="email" name="email" value="Email *" required>
+                <p class="terminosyc">* Al usar este formulario, usted acepta el almacenamiento y manejo de su correo electrónico y resto de datos por parte de este sitio web.</p>
+                <button class="botonenviar">Enviar</button>
             </section>
         </main>
 
