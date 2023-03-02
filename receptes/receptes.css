@@ -9,3 +9,19 @@
 aside {
     width: 25%;
 }
+
+li {
+    list-style-type: none;
+    text-align: center;
+    padding: 1vh 30px;
+}
+
+.separator {
+
+}
+button {
+    border: none;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}

@@ -95,6 +95,10 @@ aside {
     transition: 0s;
 }
 
+#submit {
+    margin-top: 40px;
+}
+
 .btn:active {
     background-color: #8A8070;
 }
@@ -145,7 +149,6 @@ a:hover {
 a:active {
     text-decoration: none;
 }
-
 
 footer {
     background-color:black;
