@@ -39,6 +39,8 @@ button:focus {
 
 article img {
     width: 85%;
+    outline : 1px solid white;
+    outline-offset:  -4px;
 }
 
 article h5 {
