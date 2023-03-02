@@ -419,7 +419,6 @@ textarea {
 aside h4 {
     font-weight:bold;
     text-align:center;
-
 }
 
 aside hr {
@@ -442,6 +441,7 @@ aside hr {
     grid-template-rows: repeat(4, 1fr);
     gap: 10px;
     position: relative;
+    margin-bottom:5vh;
 }
 .grid-item {
     overflow: hidden;
@@ -450,4 +450,14 @@ aside hr {
 .nombrepp img {
     width: 100%;
     display: block;
+}
+
+.interes a {
+    text-decoration:none;
+    color:gray;
+}
+
+.interes a:hover {
+    font-weight:bold;
+    color:#7ABA96;
 }
