@@ -15,7 +15,7 @@
             <a href="{link}" target="_blank">
                 <img src="{foto}" alt="foto"/>
             </a>
-            <p><xsl:value-of select="titulo"/></p>
+            <p><xsl:value-of select="titulo" /></p>
         </div>
     </xsl:template>
 </xsl:stylesheet>

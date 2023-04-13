@@ -7,12 +7,16 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
+
+
 img {
-    width: 85%;
+    width: 80%;
     outline-offset: -4px;
     outline: 1px solid white;
 }
 
 p, div {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
 }
