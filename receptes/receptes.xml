@@ -17,4 +17,139 @@
         <link>recepta/boniato.html</link>
         <titulo>Pastel de boniato y café con crema de cacao y aguacate</titulo>
     </recepta>
+    <recepta>
+        <foto>../imatges/crema.jpg</foto>
+        <link>recepta/crema.html</link>
+        <titulo>Crema de calabaza y coco al curry</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/deluxe.jpg</foto>
+        <link>recepta/deluxe.html</link>
+        <titulo>Patatas deluxe al horno</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/hamburguesa.jpg</foto>
+        <link>recepta/hamburguesa.html</link>
+        <titulo>Hamburguesa de quinoa y calabaza al garam masala</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/leche.jpg</foto>
+        <link>recepta/leche.html</link>
+        <titulo>Leche de sésamo</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/masa.jpg</foto>
+        <link>recepta/masa.html</link>
+        <titulo>Masa de pizza integral de espelta</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/panna.jpg</foto>
+        <link>recepta/panna.html</link>
+        <titulo>Panna cotta</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/pudin.jpg</foto>
+        <link>recepta/pudin.html</link>
+        <titulo>Pudin de chía básico (Chia pudding)</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/tarta.jpg</foto>
+        <link>recepta/tarta.html</link>
+        <titulo>Tarta de manzana fácil y jugosa</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/zumo.jpg</foto>
+        <link>recepta/zumo.html</link>
+        <titulo>Zumo para adelgazar con manzana y pepino</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/batidoespinacas.jpg</foto>
+        <link>recepta/batidoespinacas.html</link>
+        <titulo>Batido de espinacas con naranja y paraguayo</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/bizcochuelo.jpg</foto>
+        <link>recepta/bizcochuelo.html</link>
+        <titulo>Bizcochuelo casero vegano</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/mantequillacacahuete.jpg</foto>
+        <link>recepta/mantequillacacahuete.html</link>
+        <titulo>Crema de cacahuete casera (Peanut butter)</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/picodegallo.jpg</foto>
+        <link>recepta/picodegallo.html</link>
+        <titulo>Pico de gallo (Receta tradicional de la salsa fresca)</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/porridge.jpg</foto>
+        <link>recepta/porridge.html</link>
+        <titulo>Porridge de arroz y avena</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/tabule.jpg</foto>
+        <link>recepta/tabule.html</link>
+        <titulo>Tabulé de coliflor y fresas</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/garbanzosconespinacas.jpg</foto>
+        <link>recepta/garbanzosconespinacas.html</link>
+        <titulo>Garbanzos con espinacas</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/hummus.jpg</foto>
+        <link>recepta/hummus.html</link>
+        <titulo>Hummus casero de garbanzos</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/nachos.jpg</foto>
+        <link>recepta/nachos.html</link>
+        <titulo>Nachos caseros al horno</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/noodles.jpg</foto>
+        <link>recepta/noodles.html</link>
+        <titulo>Noodles estilo asiático</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/paella.jpg</foto>
+        <link>recepta/paella.html</link>
+        <titulo>Paella de verduras saludable</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/quinoa.jpg</foto>
+        <link>recepta/quinoa.html</link>
+        <titulo>Quinoa con garbanzos y cúrcuma</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/rollitoscalabacin.jpg</foto>
+        <link>recepta/rollitoscalabacin.html</link>
+        <titulo>Rollitos de calabacín rellenos y adobados</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/sopadetox.jpg</foto>
+        <link>recepta/sopadetox.html</link>
+        <titulo>Sopa de verduras saludable (Receta detox)</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/yucasalteada.jpg</foto>
+        <link>recepta/yucasalteada.html</link>
+        <titulo>Yuca salteada</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/chucrut.jpg</foto>
+        <link>recepta/chucrut.html</link>
+        <titulo>Chucrut de lombarda</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/gofio.jpg</foto>
+        <link>recepta/gofio.html</link>
+        <titulo>Gofio cremoso</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/chipsdechirivia.jpg</foto>
+        <link>recepta/chipsdechirivia.html</link>
+        <titulo>Chips de chirivía al horno</titulo>
+    </recepta>
 </receptes>
