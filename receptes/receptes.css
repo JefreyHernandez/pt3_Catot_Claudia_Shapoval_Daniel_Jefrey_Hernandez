@@ -37,25 +37,8 @@ button:focus {
     background-color: rgb(185, 227, 195, 0.5);
 }
 
-article img {
-    width: 85%;
-    outline : 1px solid white;
-    outline-offset:  -4px;
-}
-
-main {
-    display: grid;
-    width: 100%;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    margin-top: 30px;
-}
-
-article {
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: black;
+object {
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
 }

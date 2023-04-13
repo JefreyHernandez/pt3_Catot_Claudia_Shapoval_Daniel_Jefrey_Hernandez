@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../receptes.xsl"?>
+
+<receptes>
+    <receta>
+        <foto>../../imatges/pastacoliflor.jgp</foto>
+        <titulo>
+            Pasta con salsa de coliflór y pimienta de Jamaica
+        </titulo>
+    </receta>
+</receptes>

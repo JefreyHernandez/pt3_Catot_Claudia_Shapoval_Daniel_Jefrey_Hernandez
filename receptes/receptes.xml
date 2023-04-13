@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="receptes.xsl"?>
+
+<receptes>
+    <recepta>
+        <foto>../imatges/batido.jpg</foto>
+        <link>recepta/batido.html</link>
+        <titulo>Batido Verde de Espinacas con Manzana y Pepino</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/barritas.jpg</foto>
+        <link>recepta/barritas.html</link>
+        <titulo>Barritas saludables de cereales</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/boniato.jpg</foto>
+        <link>recepta/boniato.html</link>
+        <titulo>Pastel de boniato y café con crema de cacao y aguacate</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/boniato.jpg</foto>
+        <link>recepta/boniato.html</link>
+        <titulo>Pastel de boniato y café con crema de cacao y aguacate</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/boniato.jpg</foto>
+        <link>recepta/boniato.html</link>
+        <titulo>Pastel de boniato y café con crema de cacao y aguacate</titulo>
+    </recepta>
+    <recepta>
+        <foto>../imatges/boniato.jpg</foto>
+        <link>recepta/boniato.html</link>
+        <titulo>Pastel de boniato y café con crema de cacao y aguacate</titulo>
+    </recepta>   <recepta>
+    <foto>../imatges/boniato.jpg</foto>
+    <link>recepta/boniato.html</link>
+    <titulo>Pastel de boniato y café con crema de cacao y aguacate</titulo>
+</recepta>
+
+
+
+</receptes>
